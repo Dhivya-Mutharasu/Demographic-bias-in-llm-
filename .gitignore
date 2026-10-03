@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+
+# Data
+raw_data/
+data/
+outputs/
+figures/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Secrets
+.env
+
+# Pytest
+.pytest_cache/
