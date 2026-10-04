@@ -1,0 +1,18 @@
+{
+  "updated_utc": "2026-10-04T08:02:20Z",
+  "backend": "mock",
+  "model": "mock",
+  "model_version": "v1",
+  "runs_requested": 3,
+  "deterministic": true,
+  "rpm": 0,
+  "rpd_this_invocation": null,
+  "prompts_file": "data/prompts.csv",
+  "n_prompt_rows": 20,
+  "last_invocation_stats": {
+    "calls_made": 20,
+    "skipped_already_done": 0,
+    "errors": 0,
+    "stopped_early_daily_cap": false
+  }
+}

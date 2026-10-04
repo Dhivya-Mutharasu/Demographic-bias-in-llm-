@@ -1,0 +1,263 @@
+{
+  "created_utc": "2026-10-04T06:15:43Z",
+  "seed": 42,
+  "python": "3.13.14",
+  "script_sha256": "7782ea82324ccbbd04ff3369daf181893e1f46b0836e56a178d087d4e7ca134b",
+  "name_filter": "gender-guesser",
+  "filters": {
+    "min_words": 20,
+    "max_words": 120,
+    "per_star_target_per_source": {
+      "1": 45,
+      "2": 45,
+      "3": 80,
+      "4": 40,
+      "5": 40
+    }
+  },
+  "allow_words_added": [],
+  "most_flagged_name_tokens": [
+    [
+      "Charlotte",
+      296
+    ],
+    [
+      "Phoenix",
+      254
+    ],
+    [
+      "Madison",
+      110
+    ],
+    [
+      "Thai",
+      103
+    ],
+    [
+      "Mac",
+      51
+    ],
+    [
+      "Olive",
+      37
+    ],
+    [
+      "Taco",
+      34
+    ],
+    [
+      "Red",
+      29
+    ],
+    [
+      "Harris",
+      28
+    ],
+    [
+      "Fried",
+      26
+    ],
+    [
+      "York",
+      25
+    ],
+    [
+      "Rock",
+      25
+    ],
+    [
+      "German",
+      24
+    ],
+    [
+      "Carolina",
+      23
+    ],
+    [
+      "General",
+      22
+    ],
+    [
+      "San",
+      21
+    ],
+    [
+      "Honey",
+      19
+    ],
+    [
+      "Sam",
+      18
+    ],
+    [
+      "Mike",
+      18
+    ],
+    [
+      "Joe",
+      17
+    ],
+    [
+      "King",
+      16
+    ],
+    [
+      "Mary",
+      16
+    ],
+    [
+      "Monty",
+      16
+    ],
+    [
+      "Reuben",
+      15
+    ],
+    [
+      "Jack",
+      15
+    ],
+    [
+      "John",
+      15
+    ],
+    [
+      "Hilton",
+      15
+    ],
+    [
+      "Bianco",
+      15
+    ],
+    [
+      "Alice",
+      14
+    ],
+    [
+      "Pamela",
+      13
+    ],
+    [
+      "Wendy",
+      13
+    ],
+    [
+      "America",
+      13
+    ],
+    [
+      "Ave",
+      12
+    ],
+    [
+      "Spring",
+      12
+    ],
+    [
+      "May",
+      12
+    ],
+    [
+      "Mert",
+      12
+    ],
+    [
+      "Queen",
+      12
+    ],
+    [
+      "Michael",
+      12
+    ],
+    [
+      "Scott",
+      12
+    ],
+    [
+      "Maria",
+      12
+    ],
+    [
+      "Don",
+      11
+    ],
+    [
+      "Man",
+      11
+    ],
+    [
+      "Luke",
+      11
+    ],
+    [
+      "George",
+      11
+    ],
+    [
+      "Dan",
+      11
+    ],
+    [
+      "Sun",
+      11
+    ],
+    [
+      "Jim",
+      10
+    ],
+    [
+      "Denny",
+      10
+    ],
+    [
+      "Ruth",
+      10
+    ],
+    [
+      "Cherry",
+      10
+    ]
+  ],
+  "sources": {
+    "yelp": {
+      "path": "raw_data/yelp_reviews.jsonl",
+      "columns_used": {
+        "text": "text",
+        "rating": "stars",
+        "id": null
+      },
+      "rows_scanned": 20000,
+      "eligible_after_filters": 6072,
+      "rejected": {
+        "person_name": 3176,
+        "length": 9225,
+        "ethnicity_religion_location_cue": 1057,
+        "gender_cue": 361,
+        "non_english": 72,
+        "url_or_contact": 37
+      },
+      "eligible_per_star": {
+        "5": 991,
+        "2": 1245,
+        "4": 1225,
+        "3": 1373,
+        "1": 1238
+      },
+      "selected_per_star": {
+        "1": 45,
+        "2": 45,
+        "3": 80,
+        "4": 40,
+        "5": 40
+      },
+      "shortfall": {}
+    }
+  },
+  "total_reviews": 250,
+  "total_by_label": {
+    "negative": 90,
+    "neutral": 80,
+    "positive": 80
+  },
+  "annotation_sheet_size": 150
+}

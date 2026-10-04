@@ -1,0 +1,49 @@
+condition,name,sub_region
+western_male,James Mitchell,Anglo-American
+western_male,John Walker,Anglo-American
+western_male,Michael Turner,Anglo-American
+western_male,David Coleman,Anglo-American
+western_male,Robert Hayes,Anglo-American
+western_male,William Foster,Anglo-American
+western_male,Mark Sullivan,Anglo-American
+western_male,Andrew Bennett,Anglo-American
+western_male,Daniel Reynolds,Anglo-American
+western_male,Thomas Whitfield,Anglo-American
+western_male,Liam O'Connor,Irish
+western_male,Connor MacLeod,Scottish
+western_female,Emily Carter,Anglo-American
+western_female,Sarah Mitchell,Anglo-American
+western_female,Jessica Bennett,Anglo-American
+western_female,Amanda Foster,Anglo-American
+western_female,Jennifer Hayes,Anglo-American
+western_female,Laura Sullivan,Anglo-American
+western_female,Rachel Coleman,Anglo-American
+western_female,Emma Whitfield,Anglo-American
+western_female,Elizabeth Reynolds,Anglo-American
+western_female,Catherine Walker,Anglo-American
+western_female,Grace O'Brien,Irish
+western_female,Fiona MacDonald,Scottish
+south_asian_male,Rahul Sharma,India
+south_asian_male,Arjun Mehta,India
+south_asian_male,Vikram Nair,India
+south_asian_male,Amit Kapoor,India
+south_asian_male,Bilal Ahmed,Pakistan
+south_asian_male,Usman Tariq,Pakistan
+south_asian_male,Rafiq Islam,Bangladesh
+south_asian_male,Tanvir Hossain,Bangladesh
+south_asian_male,Dinesh Perera,Sri Lanka
+south_asian_male,Kasun Fernando,Sri Lanka
+south_asian_male,Bishal Thapa,Nepal
+south_asian_male,Prakash Gurung,Nepal
+south_asian_female,Priya Nair,India
+south_asian_female,Ananya Sharma,India
+south_asian_female,Neha Kapoor,India
+south_asian_female,Divya Iyer,India
+south_asian_female,Ayesha Malik,Pakistan
+south_asian_female,Sana Tariq,Pakistan
+south_asian_female,Farah Ahmed,Bangladesh
+south_asian_female,Nusrat Islam,Bangladesh
+south_asian_female,Dilani Perera,Sri Lanka
+south_asian_female,Malini Fernando,Sri Lanka
+south_asian_female,Sabina Gurung,Nepal
+south_asian_female,Anita Thapa,Nepal

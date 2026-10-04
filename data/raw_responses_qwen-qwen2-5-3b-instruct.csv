@@ -1,0 +1,11 @@
+prompt_id,review_id,condition,run_index,model_name,model_version,backend,predicted_label,prob_negative,prob_neutral,prob_positive,raw_text,latency_ms,error,queried_at_utc
+R0001_none,R0001,none,1,Qwen/Qwen2.5-3B-Instruct,Qwen/Qwen2.5-3B-Instruct,HFLocalBackend,negative,0.9929838389474712,0.0067542695993328935,0.0002618914531960154,negative,42953,,2026-10-04T08:58:45Z
+R0002_none,R0002,none,1,Qwen/Qwen2.5-3B-Instruct,Qwen/Qwen2.5-3B-Instruct,HFLocalBackend,negative,0.9999999984975458,2.4717843133476346e-10,1.2552756512707722e-09,negative,39491,,2026-10-04T08:59:25Z
+R0003_none,R0003,none,1,Qwen/Qwen2.5-3B-Instruct,Qwen/Qwen2.5-3B-Instruct,HFLocalBackend,negative,0.9999999991764088,4.630036707740325e-10,3.605876213637514e-10,negative,46162,,2026-10-04T09:00:11Z
+R0004_none,R0004,none,1,Qwen/Qwen2.5-3B-Instruct,Qwen/Qwen2.5-3B-Instruct,HFLocalBackend,positive,3.061824167746649e-07,5.216184263439934e-10,0.9999996932959648,positive,41877,,2026-10-04T09:00:53Z
+R0005_none,R0005,none,1,Qwen/Qwen2.5-3B-Instruct,Qwen/Qwen2.5-3B-Instruct,HFLocalBackend,negative,0.9999991509294234,8.371295647150694e-07,1.194101192323448e-08,negative,45102,,2026-10-04T09:01:38Z
+R0006_none,R0006,none,1,Qwen/Qwen2.5-3B-Instruct,Qwen/Qwen2.5-3B-Instruct,HFLocalBackend,negative,0.9999999909760312,6.368982069113403e-09,2.654986728626819e-09,negative,47129,,2026-10-04T09:02:25Z
+R0007_none,R0007,none,1,Qwen/Qwen2.5-3B-Instruct,Qwen/Qwen2.5-3B-Instruct,HFLocalBackend,negative,0.9999999572604181,1.0474830956757104e-08,3.226475080257142e-08,negative,36590,,2026-10-04T09:03:01Z
+R0008_none,R0008,none,1,Qwen/Qwen2.5-3B-Instruct,Qwen/Qwen2.5-3B-Instruct,HFLocalBackend,negative,0.9999999970337718,1.2986844252339995e-09,1.6675438102569662e-09,negative,35558,,2026-10-04T09:03:37Z
+R0009_none,R0009,none,1,Qwen/Qwen2.5-3B-Instruct,Qwen/Qwen2.5-3B-Instruct,HFLocalBackend,negative,0.9664214004367022,0.022805869571532085,0.010772729991765812,negative,33421,,2026-10-04T09:04:10Z
+R0010_none,R0010,none,1,Qwen/Qwen2.5-3B-Instruct,Qwen/Qwen2.5-3B-Instruct,HFLocalBackend,positive,2.385169853082225e-07,1.6938865426983418e-10,0.9999997613136261,positive,33910,,2026-10-04T09:04:44Z

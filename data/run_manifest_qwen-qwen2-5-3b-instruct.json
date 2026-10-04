@@ -1,0 +1,18 @@
+{
+  "updated_utc": "2026-10-04T09:04:44Z",
+  "backend": "hf",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "model_version": "Qwen/Qwen2.5-3B-Instruct",
+  "runs_requested": 3,
+  "deterministic": true,
+  "rpm": 0,
+  "rpd_this_invocation": null,
+  "prompts_file": "data/prompts.csv",
+  "n_prompt_rows": 10,
+  "last_invocation_stats": {
+    "calls_made": 10,
+    "skipped_already_done": 0,
+    "errors": 0,
+    "stopped_early_daily_cap": false
+  }
+}
