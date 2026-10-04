@@ -1,0 +1,5 @@
+{
+  "model": "mock",
+  "group_var": "region",
+  "error": "specified level 'western' not found"
+}

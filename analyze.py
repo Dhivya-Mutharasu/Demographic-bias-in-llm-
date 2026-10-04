@@ -399,6 +399,10 @@ def run_analysis(data_dir, out_dir, sesoi, n_boot, seed, make_figs=True):
 
         # --- LMM: region x gender on the 4 named conditions ---
         named = mdf[mdf["condition"].isin(NAMED_CONDITIONS)]
+
+        if named["review_id"].nunique() < 250:
+            print(f"Skipping {model}: incomplete experiment")
+            continue
         lmm = fit_mixed_model(named, "region", model)
         (out_dir / f"lmm_{model}.json").write_text(json.dumps(lmm, indent=2))
 

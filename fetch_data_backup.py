@@ -66,7 +66,8 @@ def fetch_amazon(out_path, category="Gift_Cards", limit=None):
     config = f"raw_review_{category}"
     print(f"Loading McAuley-Lab/Amazon-Reviews-2023 [{config}] ...")
     try:
-        ds = load_dataset("McAuley-Lab/Amazon-Reviews-2023", config, split="full")
+        ds = load_dataset("McAuley-Lab/Amazon-Reviews-2023", config, split="full",
+                          trust_remote_code=True)
     except Exception as e:
         raise SystemExit(
             f"Could not load category '{category}' ({e}).\n"
