@@ -14,13 +14,6 @@ Sources:
           Cite: Zhang, Zhao & LeCun (2015), "Character-level Convolutional Networks for
           Text Classification", NeurIPS 28.
 
-  amazon  McAuley-Lab/Amazon-Reviews-2023 on Hugging Face, ONE category only (default
-          "Gift_Cards", one of the smallest -- avoid "Books" or "Electronics", which are
-          many GB each). Cite: Hou et al. (2024), arXiv:2403.03952.
-
-NOT TESTED in this sandbox: Hugging Face is not reachable from here, so this script has not
-been run end-to-end. Run it yourself first with --limit 2000 (fast) and sanity-check the
-output before pulling the full thing.
 
 Usage
   pip install datasets
