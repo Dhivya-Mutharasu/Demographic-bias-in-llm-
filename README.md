@@ -269,10 +269,3 @@ If you use this code or data, please cite:
 
 ---
 
-## Authors
-
-Dhivya Mutharasu, Gokila Harini S, Nithya K, Nivi V — Department of Artificial Intelligence and Machine Learning, St. Joseph's College of Engineering, Chennai, India.
-
-## License
-
-Add a license before publishing (for example MIT for the code). Data files may be subject to the Yelp Review Full and Yelp terms.
